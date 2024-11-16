@@ -1,35 +1,57 @@
-<!DOCTYPE html>
-<html lang="en-gb">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" initial-scale="1">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <title>Interlude</title>
+  </head>
 
 
-    <link rel="stylesheet"  href="global.css" />
 
-</head>
-  
-<body>
-    <nav class="page-nav">
-        <ul>
-            <li><a href="#main">Home</a></li>
-            <li>
-            <a href="#">Explore</a>
-             <ul class="dropdown">
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#rnb">R&B Music</a></li>
-            <li><a href="#pop">Pop Music</a></li>
-            <li><a href="#rap">Rap Music</a></li>
-            <li><a href="#country">Country Music</a></li>
-            <li><a href="#other2">Other2</a></li>
-         </ul>
-     </li>
-        <li><a href="#contact">Contact Us</a></li>
-     </ul>
-    </nav>
+
  
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Explore</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#rnb">R&B</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pop">Pop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#rap">Rap</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#house">House</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#rock">Rock</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+ 
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+
     <main class="main-style">
         <header>
             <div class=intro>
@@ -37,7 +59,9 @@
                 <p>Feel the Beat, Live the Rhythm.</p>
             </div>
 
+
         </header>
+
 
         <section id="about">
             <div class="content">
@@ -48,46 +72,58 @@
                     Interlude has you covered.
                  </p>
 
+
             </div>
         </section>
+
 
         <section id="rnb">
             <div class="content">
                 <h1>Learn about R&B...</h1>
 
+
             </div>
         </section>
+
 
         <section id="pop">
             <div class="content">
                 <h2>Learn about Pop...</h2>
 
+
             </div>
         </section>
+
 
         <section id="rap">
             <div class="content">
                 <h2>Learn about Rap...</h2>
-            
+           
+
 
             </div>
         </section>
 
-        <section id="country">
+
+        <section id="house">
             <div class="content">
-                <h2>Learn about Country...</h2>
+                <h2>Learn about House music...</h2>
+
 
             </div>
         </section>
 
-        <section id="other2">
+
+        <section id="rock">
             <div class="content">
-                <h2>Learn about other...</h2>
+                <h2>Learn about Rock...</h2>
+
 
             </div>
         </section>
+
 
     </main>
     </body>
-    
+   
 </html>
